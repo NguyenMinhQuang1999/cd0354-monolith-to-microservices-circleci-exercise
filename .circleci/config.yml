@@ -24,7 +24,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
       - run: echo $MY_VAR
-      - run: node version
+      - run: node --version
       - run: npm install
 
 # Orchestrate jobs using workflows
